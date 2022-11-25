@@ -1,0 +1,36 @@
+.all {
+    margin-top: 10px;
+}
+
+table {
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 255, 0.705);
+    color: white;
+}
+button {
+    cursor: pointer;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    text-align: center;
+    font-family: monospace;
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    color: rgb(107, 104, 104);
+    margin-bottom: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container-fluid {
+    margin-bottom: 25px;
+}
