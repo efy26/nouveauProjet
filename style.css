@@ -87,3 +87,6 @@ h2 {
 .container-fluid {
     margin-bottom: 25px;
 }
+#btn1, #btn2 {
+    font-size: 24px;
+}
