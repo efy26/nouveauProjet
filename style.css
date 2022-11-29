@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 .all {
     margin-top: 10px;
 }
@@ -16,6 +21,54 @@ button {
 form {
     display: flex;
     justify-content: space-between;
+}
+@media screen and (max-width: 1189px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+    }
+    body {
+        padding: 20px;
+        width: 100%;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    input {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    #nom, #postnom, #prenom, #pays, #genre, #git {
+        margin-bottom: 10px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    
+    th {
+        padding: 15px;
+        font-size: 12px;
+    }
+    td {
+        font-size: 15px;
+    }
+    #bntAction {
+        display: flex;
+        flex-direction: column;
+    }
+    button {
+        width: 15%;
+        margin-right: 30px;
+    }
+    
+   
+    #btn1, #btn2 {
+        font-size: 15px;
+    }
+
 }
 
 input {

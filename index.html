@@ -16,21 +16,21 @@
 		<div class="container-fluid">
 			<h1>Veillez vous enregistez...</h1>
 			<form id="form">
-				<input type="text" placeholder="Entrez votre nom" id="nom" required="required">
-				<input type="text" placeholder="Entrez votre postnom" id="postnom" required="required">
-				<input type="text" placeholder="Entrez votre prenom" id="prenom" required="required">
-				<input type="text" placeholder="Entrez votre pays" id="pays" required="required">
-				<input type="text" placeholder="Homme ou Femme ?" id="genre" required="required">
-				<input type="email" placeholder="Adresse Github" id="git" required="required">
+				<input type="text" placeholder="Entrez votre nom" id="nom" >
+				<input type="text" placeholder="Entrez votre postnom" id="postnom" >
+				<input type="text" placeholder="Entrez votre prenom" id="prenom" >
+				<input type="text" placeholder="Entrez votre pays" id="pays" >
+				<input type="text" placeholder="Homme ou Femme ?" id="genre" >
+				<input type="email" placeholder="Adresse Github" id="git" >
 				<button type="submit" id="btnSubmit" class="btn btn-primary" style="font-size: 25px;"></button>
 			</form>
 		</div>
 		<div class="container">
-			<h2 class="title">Liste des personnes enregisters :</h2>
+			<h2 class="title">Liste des personnes enregistées :</h2>
 
 		<table class="table table-striped table-hover">
 			<thead>
-				<tr class="table-dark" >
+				<tr id="act" class="table-dark" >
 					<th>ID</th>
 					<th>NOM</th>
 					<th>POSTNOM</th>

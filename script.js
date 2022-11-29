@@ -29,7 +29,7 @@ function loadTasksIntable() {
     for (const task of tasks) {
         let temp = 
     `
-        <tr>
+        <tr id="act1">
             <td id="ids">${task.id}</td>
             <td>${task.nom}</td>
             <td>${task.postnom}</td>
@@ -37,9 +37,9 @@ function loadTasksIntable() {
             <td>${task.pays}</td>
             <td>${task.genre}</td>
             <td>${task.git}</td>
-            <td>
-                <button onclick = "deleteTask(this, ${tasks.indexOf((task))})" class="btn btn-danger"><i class="bi bi-trash"></i></button>
-                <button data-nom="${task.nom}" data-postnom="${task.postnom}" data-prenom="${task.prenom}" data-pays="${task.pays}" data-genre="${task.genre}"data-git="${task.git}" data-id="${task.id}" onclick = "editTask(this)" class="btn btn-warning"><i class="bi bi-pencil"></i></button>
+            <td id="bntAction">
+                <i id="btn1" onclick = "deleteTask(this, ${tasks.indexOf((task))})" class="bi bi-trash"></i>
+                <i id="btn2" data-nom="${task.nom}" data-postnom="${task.postnom}" data-prenom="${task.prenom}" data-pays="${task.pays}" data-genre="${task.genre}"data-git="${task.git}" data-id="${task.id}" onclick = "editTask(this)" class="bi bi-pencil"></i>
             </td>	
         </tr>
     `
